@@ -1,16 +1,13 @@
 ---
-title: 'ESB `r emo::ji("heart")` DNA @ NRM'
+title: '  ESB `r emo::ji("heart")` DNA @ SMNH  '
 enableEmoji: true
 output:
   xaringan::moon_reader:
-    yolo:
-      img: Pictures/ingierli.jpg
-      times: 2
     css: ["robot", "nrm.css"] 
     lib_dir: libs
     nature:
       highlightStyle: github
-      titleSlideClass: [top, left]
+      titleSlideClass: [bottom, left]
 ---
 
 ```{r setup, include=FALSE}
@@ -19,8 +16,7 @@ library(emo)
 ```
 
 
-### The environmental specimen bank at NRM
-
+### The environmental specimen bank at SMNH
 
 - 350 000 samples
 - Oldest material from the mid 60s
@@ -37,9 +33,13 @@ knitr::include_graphics("Pictures/Arter2.png")
 ```
 ]
 
+???
+- In addition there are Mother milks that are monitored for contaminants
+- Shorter time series with samples for other animals, sea eagle, lynx, harbour purpoise
+
 ---
 
-### Since 2015 DNA extractions is stored in the NRM ESB
+### Since 2015 DNA extractions is stored in the ESB
 
 - DNA extractions from the population monitoring of brown-bear in Sweden ~12000 samples
 - eDNA samples - water, soil and sediment <500 samples
@@ -58,9 +58,12 @@ knitr::include_graphics("Pictures/Filter.jpeg")
 ```
 ]
 
+???
+
+
 ---
 
-### DNA extractions worknig procedure
+### DNA extractions procedure
 
 .pull-left[
 - Unique identifiers are assigned upon arrival to the museum
@@ -97,7 +100,7 @@ knitr::include_graphics("Pictures/Tracxer.jpg")
 
 ---
 
-### SeqDB: LIMS and sample data base
+### [SeqDB: LIMS and sample data base](https://seqdb-beta.dina-web.net/login.jsp)
 
 
 
@@ -123,7 +126,7 @@ knitr::include_graphics("Pictures/Screenshot-2.png")
 
 ---
 
-### Custom made public interface
+### [Custom made public interface](https://seqpublic.nrm.se/?filter[species]=arctos)
 
 ```{r Seqpub, echo=FALSE, fig.cap="", out.width = '100%'}
 knitr::include_graphics("Pictures/seqpub.png")
@@ -158,6 +161,6 @@ knitr::include_graphics("Pictures/docker.png")
 
 - Agriculture and Agri-Food Canada (AAFC) - SeqDB Developement
 
-- Ingimar Erlingsson, dev-ops at NRM responsible for our local seqdb instance
+- Ingimar Erlingsson, DevOps at SNMH responsible for our local seqdb instance
 
-- Sara Danielsson, head of the ESB at NRM for sharing lots of information for this presentation
+- Sara Danielsson, head of the ESB at SNMH for sharing lots of information for this presentation
